@@ -33,8 +33,6 @@
     font-size: 35px;
     width: 480px;
     height: 90px;
-    gap: 0px;
-    opacity: 0px;
     margin-left: 30px;
     color: #0B83CB;
   
@@ -46,7 +44,6 @@
     width: 471.93px;
     height: 90px;
     margin-top: 27.7px;
-    opacity: 0px;
     font-size: 16px;
     line-height: 24.8px;
     margin-left: 30px;
@@ -55,7 +52,7 @@
   }
   
   .car-image {
-    text-align: right; /* Align the image to the right */
+    text-align: right;
   }
   
   .car-image img {
