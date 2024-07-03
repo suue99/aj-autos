@@ -102,6 +102,7 @@
     top: 33%;
     right: 10%;
     width: 130px;
+    height: auto;
   }
 
   .toyota{
@@ -118,9 +119,27 @@
     bottom: 30%;
     left: 57%;
     width: 150px;
+    height: auto;
   }
   
 
 
+
+
+  
+
+
+  @media screen and (max-width: 1020px){
+
+    .car-image img {
+     display: none;
+      
+    }
+
+    .rectangle {
+      display: none;
+    }
+
+  }
 
   
