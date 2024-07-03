@@ -73,7 +73,7 @@
     background-color: #0B83CB;
     border-radius: 2px;
   }
-  
+
   .btn {
     margin-left: 26px;
     margin-right: 27px;
@@ -89,6 +89,41 @@
     border: #0B83CB solid 1px;
     border-radius: 2px;
   }
+
+  .rectangle {
+    position: absolute;
+    background-color: #FFFFFFC4;
+    border: 1px dashed #00CCF9;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+   
+    text-align: center;
+  }
+  
+  .rectangle.top-right {
+    top: 33%;
+    right: 10%;
+    width: 130px;
+  }
+
+  .toyota{
+    font-family: Avenir-heavy ;
+    font-size: 16px;
+  }
+
+  .cylinder{
+    font-family: Avenir;
+  }
+
+  
+  .rectangle.bottom-left {
+    bottom: 30%;
+    left: 57%;
+    width: 150px;
+  }
+  
+
 
 
   

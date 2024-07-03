@@ -18,6 +18,8 @@ function Home () {
         </div>
         <div className="car-image">
           <img src={carImage} alt="Toyota Camry" />
+          <div className="rectangle top-right"> <span className="toyota">Toyota Camry</span><br /> <span className="cylinder"> 2.5L 4-cylinder, 3.5L V6 </span></div>
+          <div className="rectangle bottom-left"> <span className="toyota">$12 million</span><br /> <span className="cylinder"> 4 Seater  -  Petrol  -  Automatic </span></div>
         </div>
       </div>
     </div>
