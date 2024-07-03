@@ -1,9 +1,16 @@
+@font-face {
+  font-family: Days-one;
+  src: url(../Fonts/DaysOne-Regular.ttf);
+}
+
+
+
 .background-right {
     background-image: url('../Images/background\ design.png');
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain; 
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,6 +27,26 @@
   .text-content {
     max-width: 500px; /* Adjust as needed */
   }
+
+  .premier-heading{
+    font-family: Days-one;
+    font-size: 35px;
+    width: 480px;
+    margin-bottom: 40px;
+    height: 90px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+  .platform{
+    font-family: Avenir;
+    width: 471.93px;
+    height: 90px;
+    margin-top: 40px;
+    opacity: 0px;
+
+  }
   
   .car-image {
     text-align: right; /* Align the image to the right */
@@ -28,5 +55,6 @@
   .car-image img {
     max-width: 100%;
     height: auto;
+    
   }
   
