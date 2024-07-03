@@ -1,0 +1,32 @@
+.background-right {
+    background-image: url('../Images/background\ design.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px; /* Adjust as needed */
+    padding: 50px; /* Adjust as needed */
+  }
+  
+  .text-content {
+    max-width: 500px; /* Adjust as needed */
+  }
+  
+  .car-image {
+    text-align: right; /* Align the image to the right */
+  }
+  
+  .car-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  

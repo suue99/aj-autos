@@ -1,0 +1,52 @@
+/* Navbar */
+
+@font-face {
+    font-family: Avenir ;
+    src: url('../Fonts/Avenir\ Next\ LT\ Pro.otf');
+}
+
+@font-face {
+    font-family: Avenir-heavy ;
+    src: url('../Fonts/Avenir\ 85\ Heavy.otf');
+}
+
+#nav-logo img{
+    width: 130px;
+    margin-left: 40px;
+}
+#home-link{
+    font-family: Avenir-heavy;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+}
+
+#other-links{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7D7D7D;
+
+}
+
+#searchbar{
+    margin-right: 30px;
+    width: 251.37px;
+    height: 35.12px;
+    top: 33.15px;
+    left: 1143.62px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.mx-auto{
+    margin-top: 10px;
+}
+
+
+
