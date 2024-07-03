@@ -1,11 +1,13 @@
 import React from "react";
 import './home.css';
 import carImage from '../Images/whitecamry.png';
+import Filter from "./Filter";
 
 
 
 function Home () {
     return (
+      <span>
         <div className="background-right">
         <div className="content-wrapper">
         <div className="text-content">
@@ -14,7 +16,7 @@ function Home () {
             Our platform offers a seamless experience, connecting buyers with their dream vehicles and providing dependable after-sales support.
           </p>
           <button className="btn" id="buy-cars">BUY CARS</button>
-          <button className="btn" id="services">REPAIRS</button>
+          <button className="btn" id="repairs">REPAIRS</button>
         </div>
         <div className="car-image">
           <img src={carImage} alt="Toyota Camry" />
@@ -22,7 +24,14 @@ function Home () {
           <div className="rectangle bottom-left"> <span className="toyota">$12 million</span><br /> <span className="cylinder"> 4 Seater  -  Petrol  -  Automatic </span></div>
         </div>
       </div>
+
     </div>
+
+
+    <Filter/>
+    
+    </span>
+    
   );
 }
 

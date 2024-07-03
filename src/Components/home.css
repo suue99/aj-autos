@@ -69,6 +69,7 @@
     padding:10px 30px 10px 30px;
     background-color: #0B83CB;
     border-radius: 2px;
+    transition: all 300ms;
   }
 
   .btn {
@@ -76,7 +77,11 @@
     margin-right: 27px;
   }
 
-  #services{
+  .btn:hover{
+    transform: scale(1.1); 
+  }
+
+  #repairs{
     font-family: Avenir;
     font-weight: 500;
     font-size: 10px;
@@ -85,6 +90,7 @@
     background-color: #E0F5F8;
     border: #0B83CB solid 1px;
     border-radius: 2px;
+    transition: all 300ms;
   }
 
   .rectangle {
@@ -94,12 +100,16 @@
     padding: 10px;
     border-radius: 5px;
     font-size: 10px;
-   
+    transition: all 300ms;
     text-align: center;
+  }
+
+  .rectangle:hover {
+    transform: scale(1.1); /* Scale up on hover */
   }
   
   .rectangle.top-right {
-    top: 33%;
+    top: 50%;
     right: 10%;
     width: 130px;
     height: auto;
@@ -116,7 +126,7 @@
 
   
   .rectangle.bottom-left {
-    bottom: 30%;
+    bottom: 10%;
     left: 57%;
     width: 150px;
     height: auto;
