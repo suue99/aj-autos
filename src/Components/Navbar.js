@@ -5,8 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import logo from '../Images/logo.png';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import { FaSearch } from 'react-icons/fa';
+import { CiSearch } from "react-icons/ci";
 import './nav.css'; // Import your custom CSS file
 
 export default function Menubar() {
@@ -45,13 +44,12 @@ export default function Menubar() {
                 aria-label="Search"
                 style={{ paddingRight: '48px', borderRadius: '0.25rem 0 0 0.25rem' }}
               />
-              <Button
-                variant="outline-secondary"
+              <button 
                 className="position-absolute end-0"
-                style={{ top: 0, bottom: 0, margin: 'auto', borderRadius: '0 0.25rem 0.25rem 0' }}
+                style={{ top: 0, bottom: 0, margin: 'auto', borderRadius: '0 0.25rem 0.25rem 0', border: 'solid 0.5px #CECECE', background: 'transparent', width: '50px'}}
               >
-                <FaSearch />
-              </Button>
+               <CiSearch />
+              </button>
             </div>
           </Form>
         </Navbar.Collapse>
