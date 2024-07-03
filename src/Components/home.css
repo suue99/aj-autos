@@ -32,10 +32,12 @@
     font-family: Days-one;
     font-size: 35px;
     width: 480px;
-    margin-bottom: 40px;
     height: 90px;
     gap: 0px;
     opacity: 0px;
+    margin-left: 30px;
+    color: #0B83CB;
+  
 
   }
 
@@ -43,8 +45,12 @@
     font-family: Avenir;
     width: 471.93px;
     height: 90px;
-    margin-top: 40px;
+    margin-top: 27.7px;
     opacity: 0px;
+    font-size: 16px;
+    line-height: 24.8px;
+    margin-left: 30px;
+    color: #7D7D7D;
 
   }
   
@@ -57,4 +63,32 @@
     height: auto;
     
   }
+
+  #buy-cars{
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding:10px 30px 10px 30px;
+    background-color: #0B83CB;
+    border-radius: 2px;
+  }
+  
+  .btn {
+    margin-left: 26px;
+    margin-right: 27px;
+  }
+
+  #services{
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding:10px 30px 10px 30px;
+    background-color: #E0F5F8;
+    border: #0B83CB solid 1px;
+    border-radius: 2px;
+  }
+
+
   

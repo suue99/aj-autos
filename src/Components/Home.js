@@ -13,8 +13,8 @@ function Home () {
           <p className="platform">
             Our platform offers a seamless experience, connecting buyers with their dream vehicles and providing dependable after-sales support.
           </p>
-          <button className="btn btn-primary">Buy Cars</button>
-          <button className="btn btn-secondary">Services</button>
+          <button className="btn" id="buy-cars">BUY CARS</button>
+          <button className="btn" id="services">REPAIRS</button>
         </div>
         <div className="car-image">
           <img src={carImage} alt="Toyota Camry" />

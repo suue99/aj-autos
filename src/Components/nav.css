@@ -12,8 +12,12 @@
 
 #nav-logo img{
     width: 130px;
-    margin-left: 40px;
+    margin-left: 72px;
 }
+.navbar-edit{
+    background: transparent;
+}
+
 #home-link{
     font-family: Avenir-heavy;
     font-style: normal;
