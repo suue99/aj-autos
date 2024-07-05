@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import './filter.css';
-import car1 from '../Images/car1.png';
-import car2 from '../Images/car2.png';
-import car3 from '../Images/car3.png';
+import car1 from '../../Images/car1.png';
+import car2 from '../../Images/car2.png';
+import car3 from '../../Images/car3.png';
 import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 
 export default function Filter() {

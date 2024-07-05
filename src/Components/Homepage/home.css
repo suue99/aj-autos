@@ -1,12 +1,12 @@
 @font-face {
   font-family: Days-one;
-  src: url(../Fonts/DaysOne-Regular.ttf);
+  src: url(../../Fonts/DaysOne-Regular.ttf);
 }
 
 
 
 .background-right {
-    background-image: url('../Images/background\ design.png');
+    background-image: url('../../Images/background\ design.png');
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain; 

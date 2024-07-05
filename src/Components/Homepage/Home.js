@@ -1,7 +1,9 @@
 import React from "react";
 import './home.css';
-import carImage from '../Images/whitecamry.png';
-import Filter from "./Filter";
+import Filter from "../Homepage/Filter";
+import carImage from '../../Images/whitecamry.png';
+import Section3 from "./Section3";
+
 
 
 
@@ -29,6 +31,8 @@ function Home () {
 
 
     <Filter/>
+
+    <Section3/>
     
     </span>
     

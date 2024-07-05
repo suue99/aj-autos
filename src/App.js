@@ -6,7 +6,7 @@ import { BrowserRouter, Route ,Routes } from 'react-router-dom';
 import Menubar from './Components/Navbar';
 import Buycar from './Components/Buycar';
 import Contact from './Components/Contact';
-import Home from './Components/Home';
+import Home from './Components/Homepage/Home';
 import Services from './Components/Services';
 
 
