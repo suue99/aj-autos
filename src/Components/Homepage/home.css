@@ -21,7 +21,6 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 20px; /* Adjust as needed */
-    padding: 50px; /* Adjust as needed */
   }
   
   .text-content {

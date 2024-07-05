@@ -17,7 +17,7 @@ export default function Section3 () {
                     to enhance our vehicle selection and service offerings.
                     </span>
 
-                    <span>
+                    <span className="cars">
                         <img src={Cars} alt="car views"/> 
                     </span>
 

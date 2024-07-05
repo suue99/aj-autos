@@ -24,6 +24,7 @@
   .car-filters {
     display: flex;
     gap: 10px;
+   
   }
   
   .filter-button {
@@ -138,4 +139,16 @@
     font-size: 10px;
     letter-spacing: 2px;
   }
+  
+
+  @media screen and (max-width: 1020px){
+
+    .car-filters {
+      display: none
+      
+     
+    }
+
+  }
+
   

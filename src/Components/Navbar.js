@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import logo from '../Images/logo.png';
 import Form from 'react-bootstrap/Form';
 import { CiSearch } from "react-icons/ci";
-import './nav.css'; // Import your custom CSS file
+import './nav.css'; 
 
 export default function Menubar() {
   const [expanded, setExpanded] = useState(false);
@@ -23,7 +23,7 @@ export default function Menubar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav variant="underline" defaultActiveKey="/" className="mx-auto" style={{ maxHeight: '200px' }} navbarScroll>
             <Nav.Link as={Link} to="/" onClick={handleNavClose} className="nav-link-custom" activeClassName="active" id='home-link'>
-              Home
+            Home
             </Nav.Link>
             <Nav.Link as={Link} to="/buycars" onClick={handleNavClose} className="nav-link-custom" activeClassName="active" id='other-links'>
               Buy Cars
