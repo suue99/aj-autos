@@ -145,8 +145,14 @@
 
     .car-filters {
       display: none
-      
-     
+  
+    }
+  }
+
+  @media screen and (max-width: 1390px){
+
+    .carousel-arrow{
+      display: none;
     }
 
   }

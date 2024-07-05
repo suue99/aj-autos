@@ -3,152 +3,143 @@
   src: url(../../Fonts/DaysOne-Regular.ttf);
 }
 
-
-
 .background-right {
-    background-image: url('../../Images/background\ design.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain; 
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .content-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 20px; /* Adjust as needed */
-  }
-  
-  .text-content {
-    max-width: 500px; /* Adjust as needed */
-  }
+  background-image: url('../../Images/background\ design.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
 
-  .premier-heading{
-    font-family: Days-one;
-    font-size: 35px;
-    width: 480px;
-    height: 90px;
-    margin-left: 30px;
-    color: #0B83CB;
-  
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 20px; 
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
-  }
+.text-content {
+  max-width: 100%; /* Ensure it fits within the parent */
+}
 
-  .platform{
-    font-family: Avenir;
-    width: 471.93px;
-    height: 90px;
-    margin-top: 27.7px;
-    font-size: 16px;
-    line-height: 24.8px;
-    margin-left: 30px;
-    color: #7D7D7D;
+.premier-heading {
+  font-family: Days-one;
+  font-size: 35px;
+  width: 100%; /* Make it responsive */
+  height: auto;
+  margin-left: 30px;
+  color: #0B83CB;
+}
 
-  }
-  
-  .car-image {
-    text-align: right;
-  }
-  
+.platform {
+  font-family: Avenir;
+  width: 100%; /* Make it responsive */
+  height: auto;
+  margin-top: 27.7px;
+  font-size: 16px;
+  line-height: 24.8px;
+  margin-left: 30px;
+  color: #7D7D7D;
+}
+
+.car-image {
+  text-align: right;
+}
+
+.car-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+#buy-cars {
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  background-color: #0B83CB;
+  border-radius: 2px;
+  transition: all 300ms;
+}
+
+.btn {
+  margin-left: 26px;
+  margin-right: 27px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+#repairs {
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  background-color: #E0F5F8;
+  border: #0B83CB solid 1px;
+  border-radius: 2px;
+  transition: all 300ms;
+}
+
+.rectangle {
+  position: absolute;
+  background-color: #FFFFFFC4;
+  border: 1px dashed #00CCF9;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  transition: all 300ms;
+  text-align: center;
+}
+
+.rectangle:hover {
+  transform: scale(1.1); 
+}
+
+.rectangle.top-right {
+  top: 50%;
+  right: 10%;
+  width: 130px;
+  height: auto;
+}
+
+.toyota {
+  font-family: Avenir-heavy;
+  font-size: 16px;
+}
+
+.cylinder {
+  font-family: Avenir;
+}
+
+.rectangle.bottom-left {
+  bottom: 10%;
+  left: 57%;
+  width: 150px;
+  height: auto;
+}
+
+@media screen and (max-width: 1020px) {
   .car-image img {
-    max-width: 100%;
-    height: auto;
-    
-  }
-
-  #buy-cars{
-    font-family: Avenir;
-    font-weight: 500;
-    font-size: 10px;
-    letter-spacing: 2px;
-    padding:10px 30px 10px 30px;
-    background-color: #0B83CB;
-    border-radius: 2px;
-    transition: all 300ms;
-  }
-
-  .btn {
-    margin-left: 26px;
-    margin-right: 27px;
-  }
-
-  .btn:hover{
-    transform: scale(1.1); 
-  }
-
-  #repairs{
-    font-family: Avenir;
-    font-weight: 500;
-    font-size: 10px;
-    letter-spacing: 2px;
-    padding:10px 30px 10px 30px;
-    background-color: #E0F5F8;
-    border: #0B83CB solid 1px;
-    border-radius: 2px;
-    transition: all 300ms;
+    display: none;
   }
 
   .rectangle {
-    position: absolute;
-    background-color: #FFFFFFC4;
-    border: 1px dashed #00CCF9;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 10px;
-    transition: all 300ms;
-    text-align: center;
+    display: none;
   }
 
-  .rectangle:hover {
-    transform: scale(1.1); /* Scale up on hover */
+  .premier-heading, .platform, .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto; /* Make them responsive */
   }
-  
-  .rectangle.top-right {
-    top: 50%;
-    right: 10%;
-    width: 130px;
-    height: auto;
-  }
-
-  .toyota{
-    font-family: Avenir-heavy ;
-    font-size: 16px;
-  }
-
-  .cylinder{
-    font-family: Avenir;
-  }
-
-  
-  .rectangle.bottom-left {
-    bottom: 10%;
-    left: 57%;
-    width: 150px;
-    height: auto;
-  }
-  
-
-
-
-
-  
-
-
-  @media screen and (max-width: 1020px){
-
-    .car-image img {
-     display: none;
-      
-    }
-
-    .rectangle {
-      display: none;
-    }
-
-  }
-
-  
+}
