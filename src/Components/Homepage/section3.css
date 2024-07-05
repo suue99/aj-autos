@@ -32,10 +32,24 @@
     color: #7D7D7D;
     width: auto;
     text-align: center;
-
 }
 
 .cars img{
     max-width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 407px){
+    .container-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .second-header{
+       text-align: center;
+    }
+    
+
 }

@@ -32,7 +32,7 @@
 .premier-heading {
   font-family: Days-one;
   font-size: 35px;
-  width: 100%; /* Make it responsive */
+  width: 100%; 
   height: auto;
   margin-left: 30px;
   color: #0B83CB;
@@ -142,4 +142,35 @@
     margin-right: 10px;
     width: auto; /* Make them responsive */
   }
+}
+
+@media screen and (max-width: 604px){
+  .premier-heading {
+
+    font-size: 25px;
+    margin-top: 60px ;
+   
+  }
+
+  .platform {
+    
+    width: 100%; /* Make it responsive */
+    height: auto;
+    margin-top: 27.7px;
+    font-size: 16px;
+    
+    margin-left: 10px;
+    
+  }
+
+  .content-wrapper {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px; 
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
 }

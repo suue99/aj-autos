@@ -57,3 +57,12 @@
 
 
 
+@media screen and (max-width: 604px){
+   
+    #nav-logo img{
+        width: 120px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+  }
